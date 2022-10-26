@@ -1,10 +1,10 @@
 terraform {
 
-  backend "remote" {
+  cloud {
     organization = "genesys-org"
 
     workspaces {
-      name = "new_user_workspace"
+      name = "genesys_flows_dev"
     }
   }
 
