@@ -4,7 +4,7 @@ terraform {
     organization = "genesys-org"
 
     workspaces {
-      name = "genesys_flows_dev"
+      name = "exampleworkspace"
     }
   }
 
