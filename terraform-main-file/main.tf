@@ -3,8 +3,8 @@ terraform {
   cloud {
     organization = "genesys-org"
 
-    workspaces {
-      name = "exampleworkspace"
+   workspaces {
+      name = "myspaceAnushka"
     }
   }
 
