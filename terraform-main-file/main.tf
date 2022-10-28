@@ -25,4 +25,8 @@ provider "genesyscloud" {
 resource "genesyscloud_flow" "flow" {  
 filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/ca24b62d2ddc2ad72b09ee43dc036745701b660a/terraformDemo.yaml"
 }
+
+resource "genesyscloud_flow" "flow1" {  
+filepath = "https://bitbucket.org/anushkasathe/automatedflows/raw/8bc0c273baafb854af1ed81cb64a75724aedd292/botFlow.yaml"
+}
        
